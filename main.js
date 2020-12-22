@@ -90,11 +90,11 @@ $(document).ready(function () {
     $.fn.fullpage.moveSectionDown();
   });
 
-  $(document).on("click", "#about", function () {
+  $(document).on("click", "#the firm", function () {
     $.fn.fullpage.moveTo(2);
   });
 
-  $(document).on("click", "#contact", function () {
+  $(document).on("click", "#contact us", function () {
     $.fn.fullpage.moveTo(3);
   });
 
